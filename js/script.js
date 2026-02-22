@@ -139,7 +139,7 @@ const imagenesCanciones = [
     './assets/Canciones/Cancion10.jpg',
     './assets/Canciones/Cancion11.jpg',
     './assets/Canciones/Cancion12.jpg',
-    './assets/Canciones/Cancion13.avif',
+    './assets/Canciones/Cancion13.jpg',
     './assets/Canciones/Cancion14.jpg',
     './assets/Canciones/Cancion15.jpg',
     './assets/Canciones/Cancion16.jpg',
