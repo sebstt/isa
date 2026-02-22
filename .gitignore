@@ -1,0 +1,36 @@
+# Sistema / IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+
+# OneDrive temporary files
+~$*
+~*.tmp
+
+# Build / distrib
+dist/
+build/
+
+# Environment
+.env
+
+# Multimedia (opcional) - si prefieres subir activos, elimina estas líneas
+# /assets/*.mp3
+# /assets/video.mp4
