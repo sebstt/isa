@@ -35,36 +35,36 @@ function volverMenu() {
 
 // Array de fotos (placeholder - el usuario agregará las suyas)
 const fotos = [
-    { src: '../assets/imagenes/1.jpg', mensaje: 'El primer día que te dije, te amo...' },
-    { src: '../assets/imagenes/2.jpg', mensaje: 'Uno besito bonito :3' },
-    { src: '../assets/imagenes/3.jpg', mensaje: 'Esas risas espontaneas' },
-    { src: '../assets/imagenes/4.jpg', mensaje: 'Contigo todo es mejor' },
-    { src: '../assets/imagenes/5.jpg', mensaje: 'La tranquilidad que me das' },
-    { src: '../assets/imagenes/6.jpg', mensaje: 'En tus brazos me siento seguro' },
-    { src: '../assets/imagenes/7.jpg', mensaje: 'Ese día me senti tan bien contigo, que supe que definitivamente ahi queria estar.' },
-    { src: '../assets/imagenes/8.jpg', mensaje: 'Te extraño incluso cuando estás aquí' },
-    { src: '../assets/imagenes/9.jpg', mensaje: 'Mi lugar favorito es contigo' },
-    { src: '../assets/imagenes/10.jpg', mensaje: 'Eres mi razón de sonreír' },
-    { src: '../assets/imagenes/11.jpg', mensaje: 'Tu forma de ser, tan linda y única' },
-    { src: '../assets/imagenes/12.jpg', mensaje: 'Esos momentos tan random que tenemos juntos' },
-    { src: '../assets/imagenes/13.jpg', mensaje: 'Contigo descubrí qué es amar' },
-    { src: '../assets/imagenes/14.jpg', mensaje: 'Eres mi mejor decisión' },
-    { src: '../assets/imagenes/15.jpg', mensaje: 'Juntos escribimos nuestra historia' },
-    { src: '../assets/imagenes/16.jpg', mensaje: 'El día que me dijiste, SI.' },
-    { src: '../assets/imagenes/17.jpg', mensaje: '<3' },
-    { src: '../assets/imagenes/18.jpg', mensaje: 'Lo único que quiero ver al despertar.' },
-    { src: '../assets/imagenes/19.jpg', mensaje: 'Nuestro amor es para siempre' },
-    { src: '../assets/imagenes/20.jpg', mensaje: 'Te amo más de lo que puedo expresar, y esos detallitos son una muestra de ello.' },
-    { src: '../assets/imagenes/21.jpg', mensaje: 'Mi unico ahnelo es protegerte.' },
-    { src: '../assets/imagenes/22.jpg', mensaje: 'Eres mi infinito' },
-    { src: '../assets/imagenes/23.jpg', mensaje: 'Cada momento contigo es magia, nuestri amor es atemporal.' },
-    { src: '../assets/imagenes/24.jpg', mensaje: 'Eres el amor de mi vida' },
-    { src: '../assets/imagenes/25.jpg', mensaje: 'Quiero alegrar tanto tu corazón, como tu pancita :3' },
-    { src: '../assets/imagenes/26.jpg', mensaje: 'Contigo descubrí el paraíso' },
-    { src: '../assets/imagenes/27.jpg', mensaje: 'Eres mi sueño hecho realidad' },
-    { src: '../assets/imagenes/28.jpg', mensaje: 'Cada segundo contigo es precioso' },
-    { src: '../assets/imagenes/29.jpg', mensaje: 'Te amaré por toda la eternidad, gracias por mostrarme el amor tan puro y bello.' },
-    { src: '../assets/imagenes/30.jpg', mensaje: 'Eres mi mayor bendición' }
+    { src: './assets/imagenes/1.jpg', mensaje: 'El primer día que te dije, te amo...' },
+    { src: './assets/imagenes/2.jpg', mensaje: 'Uno besito bonito :3' },
+    { src: './assets/imagenes/3.jpg', mensaje: 'Esas risas espontaneas' },
+    { src: './assets/imagenes/4.jpg', mensaje: 'Contigo todo es mejor' },
+    { src: './assets/imagenes/5.jpg', mensaje: 'La tranquilidad que me das' },
+    { src: './assets/imagenes/6.jpg', mensaje: 'En tus brazos me siento seguro' },
+    { src: './assets/imagenes/7.jpg', mensaje: 'Ese día me senti tan bien contigo, que supe que definitivamente ahi queria estar.' },
+    { src: './assets/imagenes/8.jpg', mensaje: 'Te extraño incluso cuando estás aquí' },
+    { src: './assets/imagenes/9.jpg', mensaje: 'Mi lugar favorito es contigo' },
+    { src: './assets/imagenes/10.jpg', mensaje: 'Eres mi razón de sonreír' },
+    { src: './assets/imagenes/11.jpg', mensaje: 'Tu forma de ser, tan linda y única' },
+    { src: './assets/imagenes/12.jpg', mensaje: 'Esos momentos tan random que tenemos juntos' },
+    { src: './assets/imagenes/13.jpg', mensaje: 'Contigo descubrí qué es amar' },
+    { src: './assets/imagenes/14.jpg', mensaje: 'Eres mi mejor decisión' },
+    { src: './assets/imagenes/15.jpg', mensaje: 'Juntos escribimos nuestra historia' },
+    { src: './assets/imagenes/16.jpg', mensaje: 'El día que me dijiste, SI.' },
+    { src: './assets/imagenes/17.jpg', mensaje: 'Te llevare mariachis con esta cancion<3' },
+    { src: './assets/imagenes/18.jpg', mensaje: 'Lo único que quiero ver al despertar.' },
+    { src: './assets/imagenes/19.jpg', mensaje: 'Nuestro amor es para siempre' },
+    { src: './assets/imagenes/20.jpg', mensaje: 'Te amo más de lo que puedo expresar, y esos detallitos son una muestra de ello.' },
+    { src: './assets/imagenes/21.jpg', mensaje: 'Mi unico ahnelo es protegerte.' },
+    { src: './assets/imagenes/22.jpg', mensaje: 'Eres mi infinito' },
+    { src: './assets/imagenes/23.jpg', mensaje: 'Cada momento contigo es magia, nuestro amor es atemporal.' },
+    { src: './assets/imagenes/24.jpg', mensaje: 'Eres el amor de mi vida' },
+    { src: './assets/imagenes/25.jpg', mensaje: 'Quiero alegrar tanto tu corazón, como tu pancita :3' },
+    { src: './assets/imagenes/26.jpg', mensaje: 'Contigo descubrí el paraíso' },
+    { src: './assets/imagenes/27.jpg', mensaje: 'Eres mi sueño hecho realidad' },
+    { src: './assets/imagenes/28.jpg', mensaje: 'Cada segundo contigo es precioso' },
+    { src: './assets/imagenes/29.jpg', mensaje: 'Te amaré por toda la eternidad, gracias por mostrarme el amor tan puro y bello.' },
+    { src: './assets/imagenes/30.jpg', mensaje: 'Eres mi mayor bendición' }
 ];
 
 function inicializarGaleriaFotos() {
@@ -127,30 +127,30 @@ const canciones = [
 
 // Rutas de las imágenes de las canciones (Cancion1..Cancion24) en assets/Canciones
 const imagenesCanciones = [
-    '../assets/Canciones/Cancion1.jpg',
-    '../assets/Canciones/Cancion2.jpg',
-    '../assets/Canciones/Cancion3.jpg',
-    '../assets/Canciones/Cancion4.jpg',
-    '../assets/Canciones/Cancion5.png',
-    '../assets/Canciones/Cancion6.webp',
-    '../assets/Canciones/Cancion7.jpg',
-    '../assets/Canciones/Cancion8.jpg',
-    '../assets/Canciones/Cancion9.png',
-    '../assets/Canciones/Cancion10.jpg',
-    '../assets/Canciones/Cancion11.jpg',
-    '../assets/Canciones/Cancion12.jpg',
-    '../assets/Canciones/Cancion13.avif',
-    '../assets/Canciones/Cancion14.jpg',
-    '../assets/Canciones/Cancion15.jpg',
-    '../assets/Canciones/Cancion16.jpg',
-    '../assets/Canciones/Cancion17.jpg',
-    '../assets/Canciones/Cancion18.jpg',
-    '../assets/Canciones/Cancion19.jpg',
-    '../assets/Canciones/Cancion20.jpg',
-    '../assets/Canciones/Cancion21.jpg',
-    '../assets/Canciones/Cancion22.jpg',
-    '../assets/Canciones/Cancion23.jpg',
-    '../assets/Canciones/Cancion24.jpg'
+    './assets/Canciones/Cancion1.jpg',
+    './assets/Canciones/Cancion2.jpg',
+    './assets/Canciones/Cancion3.jpg',
+    './assets/Canciones/Cancion4.jpg',
+    './assets/Canciones/Cancion5.png',
+    './assets/Canciones/Cancion6.webp',
+    './assets/Canciones/Cancion7.jpg',
+    './assets/Canciones/Cancion8.jpg',
+    './assets/Canciones/Cancion9.png',
+    './assets/Canciones/Cancion10.jpg',
+    './assets/Canciones/Cancion11.jpg',
+    './assets/Canciones/Cancion12.jpg',
+    './assets/Canciones/Cancion13.avif',
+    './assets/Canciones/Cancion14.jpg',
+    './assets/Canciones/Cancion15.jpg',
+    './assets/Canciones/Cancion16.jpg',
+    './assets/Canciones/Cancion17.jpg',
+    './assets/Canciones/Cancion18.jpg',
+    './assets/Canciones/Cancion19.jpg',
+    './assets/Canciones/Cancion20.jpg',
+    './assets/Canciones/Cancion21.jpg',
+    './assets/Canciones/Cancion22.jpg',
+    './assets/Canciones/Cancion23.jpg',
+    './assets/Canciones/Cancion24.jpg'
 ];
 
 // Asignar la ruta de imagen a cada objeto de la lista de canciones
@@ -222,7 +222,7 @@ function mostrarMensajeCancion(index) {
 
 // ========== VISTA 4: CARRUSEL Y CARTA ==========
 
-const fotosCarrusel = Array(10).fill().map((_, i) => `../assets/imagenes/${i + 1}.jpg`);
+const fotosCarrusel = Array(10).fill().map((_, i) => `./assets/imagenes/${i + 1}.jpg`);
 let indiceCarrusel = 0;
 
 function inicializarCarrusel() {
